@@ -149,3 +149,24 @@ input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+@media only screen and (max-width: 800px) {
+  .delete-btn {
+    background-color: #e74c3c;
+    float: right;
+    border: 0;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+    top: 0%;
+    padding: 2px 5px;
+    transform: translate(0%);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .cont {
+    display: flex;
+  }
+  .spams {
+    padding-right: 10%;
+  }
+}
